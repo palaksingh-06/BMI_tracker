@@ -9,18 +9,18 @@ function BMIForm() {
   const [bmi, setBmi] = useState(null);
   const [category, setCategory] = useState("");
 
-  function handleSubmit(e) {
-    e.preventDefault();
+ function handleSubmit(e) {
+  e.preventDefault();
 
-    const h = height / 100;
-    const bmiValue = (weight / (h * h)).toFixed(2);
+  const h = height / 100;
+  const bmiValue = Number((weight / (h * h)).toFixed(2));
 
-    setBmi(bmiValue);
+  setBmi(bmiValue);
 
-    if (bmiValue < 18.5) setCategory("Underweight");
-    else if (bmiValue < 24.9) setCategory("Normal");
-    else setCategory("Overweight");
-  }
+  if (bmiValue < 18.5) setCategory("Underweight");
+  else if (bmiValue < 24.9) setCategory("Normal");
+  else setCategory("Overweight");
+}
 
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-500">
