@@ -1,1 +1,17 @@
 @import "tailwindcss";
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  max-width: 300px;
+}
+
+input {
+  padding: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 8px;
+  cursor: pointer;
+}

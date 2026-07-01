@@ -6,12 +6,9 @@ function Home()
     return(<div>
     <h1>BMI TRACKER</h1>
     <BMIForm />
-    
-    </div>
 
     <BMIResult />
 
-    <HistoryTable />
 </div>)
 }
 
