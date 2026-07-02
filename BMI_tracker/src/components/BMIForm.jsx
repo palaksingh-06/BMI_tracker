@@ -23,7 +23,7 @@ function BMIForm() {
 }
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-500">
+    <div className="min-h-screen flex items-center justify-center bg-gray-300">
       <div className="bg-white shadow-lg rounded-2xl p-6 w-80">
 
         <h1 className="text-xl font-bold text-center mb-4">
