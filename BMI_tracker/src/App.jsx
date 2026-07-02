@@ -1,14 +1,12 @@
 import { useState } from 'react'
-import heroImg from './assets/hero.png'
-import './App.css'
 
-import BMIForm from "./components/BMIForm";
+import Home from './pages/home';
 
 function App() {
   return (
-    <div>
-      <BMIForm />
-    </div>
+    <>
+      <Home />
+    </>
   );
 }
 

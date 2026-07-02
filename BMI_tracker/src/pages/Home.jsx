@@ -3,13 +3,8 @@ import BMIResult from "../components/BMIResult"
 import HistoryTable from "../components/HistoryTable"
 function Home()
 {
-    return(<div>
-    <h1>BMI TRACKER</h1>
-    <BMIForm />
-
-    <BMIResult />
-
-</div>)
+    return(
+    <BMIForm />)
 }
 
 
