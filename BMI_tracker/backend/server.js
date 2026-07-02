@@ -1,3 +1,4 @@
+const db= require("./db");
 const express = require("express");   //importing the express library 
 const cors = require("cors");   //importing cors 
 require("dotenv").config();  //making use of env for passwords
